@@ -1,0 +1,67 @@
+.one {
+    color: red;
+}
+.two{
+    font-size: 30px;
+}
+div p{
+    color: red;
+    font-size: 50px;
+}
+input[type="text"]{
+    color: red;
+    background: green;
+}
+input[type="email"]{
+    background: yellow;
+}
+.x{
+    height: 130px;
+    width: 250px;
+    border: black 5px solid;
+    background: rgb(200,50,5);
+    /* للتحكم بالشفافية نكتب rgba اعلى شفافية هي 1 */
+    background-image: url("https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2020-07/kitten-510651.jpg?h=f54c7448&itok=ZhplzyJ9");
+    background-size: 250px 130px;
+    /* التاك المسؤول عن التكرار هو 
+    bg-repeat : no-repeat */
+     background-position: center;
+}
+div {
+    color: black;
+}
+h1{
+    font-family: fantasy;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.rtl{
+    direction:rtl
+    
+}
+.name{
+    border: black 5px solid;
+    padding-bottom: 20px;
+    padding-top: 20px ;
+    padding-left: 20px;
+    /* تكدر تكتبها هيج : badding : 10px 3px 2px 45px 
+    والاتجاهات باتجاه عقارب الساعة */
+     margin-bottom: 210px;
+     margin-top: -20px;
+     overflow: scroll;
+}
+a{
+    border:yellow 2px solid;
+    text-decoration: none;
+    color: black;
+    cursor: grab;
+    margin-left: 30px;
+}
+a:hover{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
